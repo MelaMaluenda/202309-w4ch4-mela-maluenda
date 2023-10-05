@@ -1,0 +1,46 @@
+:root {
+  --main-font-family: "Nunito", sans-serif;
+  --font-size: 2rem;
+  --text-color: #181818ff;
+  --button-color-orange: #ed6436ff;
+  --title-color-orange-2: #ed6638ff;
+  --hover-color-coral: #f0815bff;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+html {
+  font-family: var(--main-font-family);
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  font: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}
