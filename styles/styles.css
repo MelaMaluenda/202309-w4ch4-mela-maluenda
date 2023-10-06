@@ -64,7 +64,7 @@ button {
 
 .button {
   padding: 15px 25px;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
   color: var(--button--color);
   background-color: var(--button-color-orange);
   border-radius: 0 25px 25px 25px;
@@ -77,4 +77,27 @@ button:hover {
   color: var(--hover-color-coral);
   background-color: var(--button--color);
   border: solid 1px var(--hover-color-coral);
+}
+
+.animals {
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.animal-cart__image {
+  object-fit: cover;
+  border-radius: 60px;
+  position: relative;
+}
+
+.animal-cart__description {
+  margin: 30px 0 20px 0;
+  font-size: var(--second-title-font-size);
+  text-transform: uppercase;
+  font-weight: 550;
+  position: absolute;
+  top: 30px;
 }
